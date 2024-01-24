@@ -1,0 +1,144 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+		"path" : "pages/login/login",
+		"style" : 
+		{
+			"enablePullDownRefresh" : false,
+			"navigationStyle": "custom"
+		}
+	},
+		{
+			"path" : "pages/home/home",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/mine/mine",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Mine",
+				"enablePullDownRefresh" : false
+			}
+		},
+
+		{
+			"path" : "pages/chat/chat",
+			"style" : 
+			{
+				"navigationBarTitleText" : "ground",
+				"enablePullDownRefresh" : true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/redpackage/redpackage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Redpackage",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path" : "pages/assetsRecord/assetsRecord",
+			"style" : 
+			{
+				"navigationBarTitleText" : "AssetsRecord",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path" : "pages/share/share",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Share",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path" : "pages/commission/commission",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Fund",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path" : "pages/modify/modify",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Modify",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path" : "pages/recharge/recharge",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Recharge",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path" : "pages/withdraw/withdraw",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Withdraw",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "default"
+			}
+		}
+	],
+		
+	"tabBar": {
+		"color": "#7A7E83",
+			"selectedColor": "#3cc51f",
+			"borderStyle": "black",
+			"backgroundColor": "#ffffff",
+			"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/tab/home.png",
+				"selectedIconPath": "static/tab/home_on.png",
+				"text": "home"
+			}, {
+				"pagePath": "pages/recharge/recharge",
+				"iconPath": "static/tab/mine.png",
+				"selectedIconPath": "static/tab/mine_on.png",
+				"text": "recharge"
+			}, {
+				"pagePath": "pages/share/share",
+				"iconPath": "static/tab/mine.png",
+				"selectedIconPath": "static/tab/mine_on.png",
+				"text": "%home.share%"
+			}, {
+				"pagePath": "pages/commission/commission",
+				"iconPath": "static/tab/mine.png",
+				"selectedIconPath": "static/tab/mine_on.png",
+				"text": "fund"
+			}, {
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/tab/mine.png",
+				"selectedIconPath": "static/tab/mine_on.png",
+				"text": "%home.mine%"
+			}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+		
+	},
+	"uniIdRouter": {}
+}
