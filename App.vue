@@ -2,14 +2,14 @@
 	export default {
 		//测试提交
 		globalData: {
-			// apiRoot: 'http://127.0.0.1:5001',
-			// baseWsUrl: 'ws://127.0.0.1:5002/group/',
-			// imUrl: 'http://127.0.0.1:5002',
+			apiRoot: 'http://127.0.0.1:5001',
+			baseWsUrl: 'ws://127.0.0.1:5002/group/',
+			imUrl: 'http://127.0.0.1:5002',
 			
 			
-			apiRoot: 'http://172.20.10.2:5001',
-			baseWsUrl: 'ws://172.20.10.2:5002/group/',
-			imUrl: 'http://172.20.10.2:5002',
+			// apiRoot: 'http://172.20.10.2:5001',
+			// baseWsUrl: 'ws://172.20.10.2:5002/group/',
+			// imUrl: 'http://172.20.10.2:5002',
 			
 			// apiRoot: 'http://198.252.103.34:5001',
 			// baseWsUrl: 'ws://198.252.103.34:5002/group/',
