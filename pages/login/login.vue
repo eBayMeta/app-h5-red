@@ -192,7 +192,7 @@
 
 
 				var data = {
-					fatherCode: 'UJWB',
+					fatherCode: 'root',
 					userName: that.newUsername,
 					passWord: that.newPassword,
 					nickName: that.newUsername
